@@ -1,4 +1,4 @@
-﻿
+﻿//we find the frequency of the Array's elements which given by the user.
 
 #include <iostream>
 #include <cstdlib> 
@@ -12,7 +12,7 @@ int main()
     int array[sizeofArray];
     
     for (int i = 0; i < sizeofArray; i++) {
-        cout << "please enter "<<i+1<<". element of array as integer " << endl;
+        cout << "please enter "<<i+1<<". element of array as an integer " << endl;
         cin >> array[i];
     }
    
